@@ -1,0 +1,1 @@
+pod install --verbose --no-repo-update//cocoapods检查更新,本地已经安装的不再重装
