@@ -1,1 +1,8 @@
 pod install --verbose --no-repo-update//cocoapods检查更新,本地已经安装的不再重装
+
+pod出错的解决方法：
+１、镜像源出错：淘宝镜像有时候也会连接不上
+▶ gem sources -a http://rubygems.org/　添加源
+▶ gem sources --remove https://rubygems.org/　移除源
+▶ gem sources                               查看当前源
+　　　注：淘宝镜像源地址http://ruby.taobao.org/，如果http出错可尝试将http改为https
